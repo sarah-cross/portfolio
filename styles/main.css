@@ -258,6 +258,19 @@ body {
     border-bottom: 5px solid #fccffc;
 }
 
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-header h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
 .project-description {
     padding: 10px 20px;
     color: white;
@@ -265,13 +278,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
-}
-
-.project-description h3 {
-    margin: 0;
-    font-size: 1.2rem;
-    font-weight: bold;
 }
 
 .project-description p {
@@ -280,12 +286,11 @@ body {
 }
 
 .github-icon {
-    position: absolute;
-    top: 10px;
-    right: 10px;
     font-size: 1.5rem;
     color: #fff;
+    margin-left: 10px; /* Adjust margin if needed */
 }
+
 
 /* Mobile View */
 @media (max-width: 768px) {
